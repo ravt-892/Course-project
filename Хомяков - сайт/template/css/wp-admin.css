@@ -1,0 +1,92 @@
+html,body{
+    font-family: Roboto,Arial,Helvetica,Helvetica Neue,FreeSans,sans-serif;
+}
+html{
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8);
+    height:100%;
+}
+.form_login{
+    text-align:center;
+    background-color: #fff;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:30%;
+    padding:20px;
+    box-sizing:border-box;
+}
+.btn_login{
+    margin-left:50%;
+    margin-top:10%;
+    width:100%;
+}
+.films_view_table{
+    margin-top:20%;
+    margin-left:30%;
+    background-color: #fff;
+}
+
+
+.btn_add{
+    margin-left:40%;
+}
+.btn_logout{
+    margin-left:43%;
+}
+.btn_signup{
+    margin-left:35%;
+}
+
+a {
+    color:black;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+    color:red;
+}
+.change_input{
+    width:200%;
+}
+
+.change_input2{
+    width:200%;
+    height:200px;
+    text-align:justify;
+    writing-mode: vertical-rl;
+}
+.change_input3{
+    width:200%;
+    height:50px;
+    text-align:justify;
+    writing-mode: vertical-rl;
+}
+
+.form_signup{
+    background-color: #fff;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top:5%;
+    display: grid;
+  grid-template-columns: 200px 200px;
+  box-sizing:border-box;
+  padding:20px 30% 20px 20px;
+}
+.form_signup > input{
+    margin-top:5%;
+}
+.form_signup > strong{
+    margin-top:5%;
+}
+.btn_back{
+    margin-left: 40%;
+    width: 100%;
+    margin-top: 20%;
+}
+.btn_signup_form{
+    margin-left: 65%;
+    width: 100%;
+    margin-top: 20%;
+}
